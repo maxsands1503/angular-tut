@@ -12,7 +12,7 @@ import {StockService} from './stock.service';
 })
 
 export class StocksComponent{
-  title = "List of Stocks";
+  title = "List of Stocks: Test";
   //stocks = ['APPL', 'IBM', 'GOOG'];
   stocks;
   constructor(stockService : StockService){

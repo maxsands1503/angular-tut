@@ -2,7 +2,9 @@
 <h1>
   {{title}}
 </h1>
-<ul>
+<a routerLink="/">Home</a>
+<a routerLink="/stocks">Stocks</a>
+<!-- <ul>
   <li *ngFor="let list of lists">{{list}}</li>
 </ul>
 
@@ -10,4 +12,5 @@
 
 <p>No highlight</p>
 
-<p myHighlight> This is a custom directive that highlights shit</p>
+<p myHighlight> This is a custom directive that highlights shit</p> -->
+<router-outlet></router-outlet>
